@@ -29,5 +29,15 @@
   ],
   "dependencies": {
     "vinyl-fs": "github:gulpjs/vinyl-fs#master"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "none",
+    "tasks": [
+      "readme"
+    ],
+    "lint": {
+      "reflinks": false
+    }
   }
 }
