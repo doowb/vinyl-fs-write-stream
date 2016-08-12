@@ -1,4 +1,6 @@
 'use strict';
 
-module.exports = function() {
-};
+var vfs = require('vinyl-fs');
+
+vfs.src('fixtures/*.txt', {buffer: false})
+  .pipe(vfs.dest('actual'));

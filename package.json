@@ -26,5 +26,8 @@
     "stream",
     "vinyl",
     "write"
-  ]
+  ],
+  "dependencies": {
+    "vinyl-fs": "github:gulpjs/vinyl-fs#master"
+  }
 }
